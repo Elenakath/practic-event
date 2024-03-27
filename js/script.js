@@ -6,10 +6,10 @@ title.addEventListener("mouseover", function() {
 });
 
 var darkModeButton = document.querySelector(".dark-mode");
-var body = document.querySelector("body");
+var theme = document.querySelector("body");
 
 darkModeButton.addEventListener("click", function() {
-    if (theme.classList.contains("dark-palett")) {
+    if (theme.classList.contains("dark-palette")) {
         theme.classList.remove("dark-palette");
         darkModeButton.innerText = "Dark Mode";
     } else {
